@@ -1,0 +1,8 @@
+<div class="search-container">
+    <form class="search-form" #form="ngForm" (ngSubmit)="onSubmit(form)">
+     <span class="logo" routerLink="/">VDGM</span>
+     <input class="search-input" ngModel  name="search" placeholder="50,000+ games"/>
+     <button class="search-button">search</button>
+
+    </form>
+</div>
